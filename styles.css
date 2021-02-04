@@ -39,3 +39,39 @@ h1 {
   width: 300px;
   height: 300px;
 }
+
+
+@media (max-width: 667px) {
+  .header {
+    padding-top: 60px;
+  }
+
+  h1 {
+    align-self: center;
+    font-size: 1.2em;
+  }
+  
+  .flags {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .logo {
+    padding-right: 6px;
+    width: 20px;
+    height: 20px;
+  }
+
+  .us {
+    padding: 20px;
+    padding-top: 100px;
+    width: 100px;
+    height: 100px;
+  }
+
+  .arg {
+    padding: 20px;
+    width: 100px;
+    height: 100px;
+  }
+}
